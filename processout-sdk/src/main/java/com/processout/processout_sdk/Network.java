@@ -41,8 +41,8 @@ class Network {
     private static RequestQueue queue;
     private static String projectId;
 
-    protected static final String API_URL = "https://api.processout.com";
-    protected static final String CHECKOUT_URL = "https://checkout.processout.com";
+    protected static final String API_URL = "https://api.processout.ninja";
+    protected static final String CHECKOUT_URL = "https://checkout.processout.ninja";
 
     private Network() {}
 
@@ -127,7 +127,7 @@ class ErrorReponse {
 
     @Override
     public String toString() {
-        return "ErrorReponse{" +
+        return "ErrorResponse{" +
                 "message='" + message + '\'' +
                 ", errorType='" + errorType + '\'' +
                 '}';
